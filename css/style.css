@@ -1,0 +1,14 @@
+.box {
+	height: 100px;
+	background: #fff000;
+	margin-bottom: 24px;
+}
+.card.bg-dark.text-white {
+	/*transition: all 0.3s ease-in-out;*/
+}
+.card.bg-dark.text-white:hover .card_overlay {
+	background: rgba(0, 0, 0, 0.5);
+    top: 0 !important;
+    opacity: 1.0 !important;
+    transition: all 0.3s ease-in-out;
+}
